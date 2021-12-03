@@ -1,0 +1,185 @@
+/* Write some CSS below */
+body {
+	font-family: courier, monospace;
+	font-size: 15px;
+	background-color: rgb(230, 230, 230);
+	color: rgb(30, 30, 30);
+	background-size: 900px;
+}
+
+h1,h2 {
+	font-family: courier, monospace;
+	font-size: 20px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.page {
+	background-size: 900px;
+}
+
+
+.banner {
+	text-align: center;
+	background-image: url(images/banner2.jpg);
+	background-size: cover;
+	background-position: center;
+	color: white;
+	padding: 100px 3px;
+}
+
+.btn-yellow {
+	background-color: #ebc707;
+	padding: 10px 45px;
+	border-radius: 4px;
+	margin: 15px;
+	color: white;
+	font-size: 16px;
+}
+
+.btn-white {
+	background-color: #ffffff;
+	padding: 5px 35px;
+	border-radius: 2px;
+	margin: 5px;
+	color: #ebc707;
+	font-size: 13px;
+}
+
+.container {
+	width: 800px;
+	margin: auto;
+	margin-bottom: 24px;
+}
+
+.card-white {
+	background-color: #faedd9;
+	width: 180px;
+	text-align: center;
+	padding: 10px;
+	margin: 8px;
+	border-radius: 6px;
+	box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-white img {
+	width: 180px;
+	height: 180px;
+	object-fit: cover;
+	border-radius: 6px;
+}
+
+.footer {
+	background-color: rgb(17, 31, 76);
+	background-size: 100vw;
+	font-family: courier, monospace;
+	font-size: 13px;
+	margin-bottom: 0px;
+	padding: 20px;
+	text-align: center;
+	color: white;
+}
+
+.cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 16px;
+}
+
+.network-btn {
+    display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 16px;
+	text-align: left;
+	font-size: 13px;
+	color: skyblue;
+}
+
+.network {
+	font-family: courier, monospace;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 8vw;
+	text-align: center;
+	font-size: 13px;
+	width: 800px;
+}
+
+.network-btn img {
+	width: 30px;
+	height: 30px;
+	justify-self: center;
+	padding-right: 0px;
+	font-size: 16px;
+}
+
+.network1 {
+	font-family: courier, monospace;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 30px;
+	text-align: center;
+	font-size: 13px;
+}
+
+.network2 {
+	font-family: courier, monospace;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 30px;
+	text-align: center;
+	font-size: 13px;
+}
+
+.network3 {
+    font-family: courier,monospace;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+    text-align: center;
+    font-size: 13px;
+}
+
+.network4 {
+	font-family: courier, monospace;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 30px;
+	text-align: center;
+	font-size: 13px;
+}
+
+.disneyland {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 10px;
+	text-align: center;
+	font-size: 13px;
+}
+
+.Europapark  {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 10px;
+	text-align: center;
+	font-size: 13px;
+}
+
+.Portaventura  {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 10px;
+	text-align: center;
+	font-size: 13px;
+}
+
+.Parcasterix  {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 10px;
+	text-align: center;
+	font-size: 13px;
+}
